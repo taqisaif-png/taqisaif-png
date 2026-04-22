@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi, I'm Taqi Abusaif 👋
 
-<!--
-**taqisaif-png/taqisaif-png** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Master of Health Informatics @ University of Michigan | Clinical AI & NLP
 
-Here are some ideas to get you started:
+## 🔬 Featured Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [Cardiac Arrest Prediction](https://github.com/taqisaif-png/cardiac-arrest-prediction)
+XGBoost model predicting in-hospital cardiac arrest from ED presentations.
+- **Data:** MIMIC-IV (19k patients) + eICU (86k) external validation
+- **Results:** MIMIC AUC=0.921 | eICU AUC=0.955
+- **Tech:** Python, XGBoost, PyTorch, sentence-transformers, scikit-learn
+
+## 🛠️ Tech Stack
+- **Languages:** Python, R, SQL
+- **ML/DL:** XGBoost, scikit-learn, PyTorch, TensorFlow, Hugging Face
+- **Clinical:** MIMIC-IV, eICU, Medical NLP, Class imbalance handling
+- **Tools:** BigQuery, Git, Jupyter, R Markdown
+
+## 📫 Connect
+- **Email:** taqisaif@umich.edu
+- **LinkedIn:** [Taqi Abusaif](https://linkedin.com/in/taqi-abusaif)
