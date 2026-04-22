@@ -18,4 +18,4 @@ XGBoost model predicting in-hospital cardiac arrest from ED presentations.
 
 ## 📫 Connect
 - **Email:** taqisaif@umich.edu
-- **LinkedIn:** [Taqi Abusaif](https://linkedin.com/in/taqi-abusaif)
+- **LinkedIn:** [Taqi Abusaif](www.linkedin.com/in/taqi-abusaif-786903256)
