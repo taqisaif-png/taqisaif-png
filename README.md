@@ -5,9 +5,10 @@ Master of Health Informatics @ University of Michigan | Clinical AI & NLP
 ## 🔬 Featured Projects
 
 ### [Cardiac Arrest Prediction](https://github.com/taqisaif-png/cardiac-arrest-prediction)
-XGBoost model predicting in-hospital cardiac arrest from ED presentations.
+XGBoost model predicting in-hospital cardiac arrest from ED presentations, with a label audit that removes patients who arrested before arrival.
 - **Data:** MIMIC-IV (19k patients) + eICU (86k) external validation
-- **Results:** MIMIC AUC=0.921 | eICU AUC=0.955
+- **Label audit:** NLP arrest-time extraction (regex, Stanza) + 104 hand-reviewed notes + TF-IDF OHCA/IHCA filter (AUC 0.963)
+- **Results:** IHCA-only AUC=0.814 vs ~0.51 for MEWS/NEWS early-warning scores
 - **Tech:** Python, XGBoost, PyTorch, sentence-transformers, scikit-learn
 
 ### [Tweet Physical-Activity Classification](https://github.com/taqisaif-png/tweet-physical-activity-classification)
